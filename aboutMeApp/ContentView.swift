@@ -28,11 +28,11 @@ struct ContentView: View {
                         .font(.title)
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)
-                        .foregroundColor(Color(hue: 0.825, saturation: 0.784, brightness: 0.433))
+                        .foregroundColor(Color(hue: 0.825, saturation:1, brightness: 0.433))
                     Spacer()
                     Text("Fremont, CA")
                         .multilineTextAlignment(.trailing)
-                        .foregroundColor(Color(hue: 0.825, saturation: 0.784, brightness: 0.433))
+                        .foregroundColor(Color(hue: 0.825, saturation: 1, brightness: 0.433))
                 }
                 
                 
@@ -46,7 +46,7 @@ struct ContentView: View {
                     .foregroundColor(Color(hue: 0.825, saturation: 0.784, brightness: 0.433))
             }
             .padding()
-            .background(Rectangle() .foregroundColor(Color(hue: 0.825, saturation: 0.16, brightness: 0.892).opacity(0.87)))
+            .background(Rectangle() .foregroundColor(Color(hue: 0.825, saturation: 0.16, brightness: 0.892).opacity(0.97)))
             .cornerRadius(20)
             .shadow(radius:15)
             .padding()
